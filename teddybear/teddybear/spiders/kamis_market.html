@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KAMIS</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVPBH4Z6YM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-LVPBH4Z6YM');
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/frontpage-vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/frontpage-vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/frontpage-vendor/aos/aos.css" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/frontpage-vendor/remixicon/remixicon.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/frontpage-vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/frontpage-vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/general.css?v=1.125" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/sections.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/breadcrumbs.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/back-to-top.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/header.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/navigation-menu.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/hero-section.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/about.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/values.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/counts.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/features.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/services.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/pricing.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/faq.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/counts.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/features.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/services.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/pricing.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/faq.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/portfolio.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/testimonials.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/team.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/clients.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/blog.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/contact.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/product-item.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/footer.css?v=1.124" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/price-watch.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/latest-reports.css?v=1.123" rel="stylesheet">
+    <link href="https://kamis.kilimo.go.ke/resources/css/frontpage/highchart.css?v=1.123" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Zebra_datepicker/1.9.18/css/bootstrap/zebra_datepicker.css" integrity="sha512-jGnP90W9TO7rAXE8dkl8c91DsyVxOKkMP7+fvYGW90qfp5QfHwinUADn4K+jyhDKdynKbS6DR+1UAiEyFl1dcQ==" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Zebra_datepicker/1.9.18/zebra_datepicker.min.js" integrity="sha512-+jF6u7aOmduPkX9JBkvp1B5XgGqvfc3fPGWJG43Ci18tZ4hR1jgHMrlWrM8ai73KzuMc6hvp+9S2k9ggGKYTiw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Zebra_datepicker/1.9.18/css/bootstrap/zebra_datepicker.css" integrity="sha512-jGnP90W9TO7rAXE8dkl8c91DsyVxOKkMP7+fvYGW90qfp5QfHwinUADn4K+jyhDKdynKbS6DR+1UAiEyFl1dcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <meta name="description" content="KAMIS" />
+		<meta name="keywords" content="market, prices" />
+		<meta name="author" content="KAMIS" />  </head>
+  <body>
+    <header id="header" class="header fixed-top" style="padding: 0.4em;">
+           
+<div class="container container-xl d-flex align-items-center justify-content-between mt-2">
+        <a href="https://kamis.kilimo.go.ke/" class="logo d-flex align-items-center">
+           <img src="https://kamis.kilimo.go.ke/resources/frontpage-images/logo.jpg" alt="logo"> 
+        </a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <!--<li class=""><a class="nav-link scrollto active" href="https://kamis.kilimo.go.ke/">HOME</a></li>-->
+            <li class=""><a class="nav-link scrollto" href="https://kamis.kilimo.go.ke/">HOME</a></li>
+            <li class=""><a class="nav-link" href="https://kamis.kilimo.go.ke/index.php/site/about">ABOUT</a></li>
+                        <li class="dropdown"><a><span>MARKETS</span></a>
+              <ul>
+                <li><a href="https://kamis.kilimo.go.ke/site/market">Commodity Prices</a></li>
+                <li><a href="https://kamis.kilimo.go.ke/site/market_search">Price Search</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a><span>CROSS-BORDER</span></a>
+              <ul>
+                 <li><a href="https://kamis.kilimo.go.ke/site/border">Trade Volumes</a></li>
+                <li><a href="https://kamis.kilimo.go.ke/site/border_search">Volume Search</a></li>
+              </ul>
+            </li>
+			          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>    </header>
+    <section id="body-section" class="mt-3" >
+        <div class="container">
+            <div class="row">
+   <div class="col-lg-12">
+      <h1 class="page-header" style="font-size: 1.5rem;">Market
+         <small>prices</small>
+      </h1>
+      <ol class="breadcrumb">
+         <li><a href="https://kamis.kilimo.go.ke/">Home</a></li>
+         |
+         <li class="active">Market</li>
+         |
+         <li class="active">Commodity Prices</li>
+      </ol>
+   </div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+   <div class="panel panel-default">
+      <div class="panel-body">
+         <div class="card bg-light">
+            <div class="card-body">
+               <div class="container-fluid">
+                  <div class="row mb-3">
+                     <div class="container container-xl d-flex align-items-center justify-content-between mt-2">
+                        <div class="pull-left col-lg-6">
+                           <form class="form-inline" id="page-size-form" method="get">
+                              <div class="row">
+                                    <div class="col-lg-6">
+                                       <div class="form-group">
+                                          <label for="selProduct">Product</label>
+                                          <select name="product" class="form-control submit-change" id="selProduct" onchange="this.form.submit();">
+                                             <option value="">--Please select--</option>
+                                                                                          <option  value="1">Dry Maize</option>
+                                                                                          <option  value="2">Red Sorghum</option>
+                                                                                          <option  value="3">Wheat</option>
+                                                                                          <option  value="4">Rice</option>
+                                                                                          <option  value="10">Green Grams</option>
+                                                                                          <option  value="12">Ground Nuts</option>
+                                                                                          <option  value="29">Beans Red Haricot (Wairimu)</option>
+                                                                                          <option  value="30">Beans (Yellow-Green)</option>
+                                                                                          <option  value="50">Dolichos lablab (Njahi)</option>
+                                                                                          <option  value="51">Pearl Rush Millet</option>
+                                                                                          <option  value="54">Finger Millet</option>
+                                                                                          <option  value="56">White Sorghum</option>
+                                                                                          <option  value="57">Red Irish potato</option>
+                                                                                          <option  value="58">Cabbages</option>
+                                                                                          <option  value="59">Sweet potatoes</option>
+                                                                                          <option  value="60">Carrots</option>
+                                                                                          <option  value="61">Tomatoes</option>
+                                                                                          <option  value="64">Beans Rosecoco</option>
+                                                                                          <option  value="65">Beans (Mwitemania)</option>
+                                                                                          <option  value="66">Beans (Mwezi Moja)</option>
+                                                                                          <option  value="67">Beans (Canadian wonder)</option>
+                                                                                          <option  value="68">Tilapia</option>
+                                                                                          <option  value="70">Goat Milk (at collection point)</option>
+                                                                                          <option  value="72">Eggs</option>
+                                                                                          <option  value="73">Meat Beef</option>
+                                                                                          <option  value="74">Meat Mutton</option>
+                                                                                          <option  value="75">Meat Indiginous Chicken</option>
+                                                                                          <option  value="76">Meat Broiler</option>
+                                                                                          <option  value="77">Omena</option>
+                                                                                          <option  value="78">Cat Fish(Mkizi/Fume)</option>
+                                                                                          <option  value="79">Haplochromis</option>
+                                                                                          <option  value="80">Trout</option>
+                                                                                          <option  value="81">Common Carp</option>
+                                                                                          <option  value="82">Protopterus</option>
+                                                                                          <option  value="83">Black bass</option>
+                                                                                          <option  value="84">Labeo</option>
+                                                                                          <option  value="85">Mormyrus</option>
+                                                                                          <option  value="86">Eel	</option>
+                                                                                          <option  value="87">African butter catfish</option>
+                                                                                          <option  value="89">Synodontis</option>
+                                                                                          <option  value="90">Alestes</option>
+                                                                                          <option  value="91">Barbus</option>
+                                                                                          <option  value="93">Snappers(Tazanda)</option>
+                                                                                          <option  value="94">Rabbitfish (Tafi/Tasi)</option>
+                                                                                          <option  value="95">Mixed Demersal</option>
+                                                                                          <option  value="96">Barracuda(Kasumba)</option>
+                                                                                          <option  value="97">Tuna</option>
+                                                                                          <option  value="98">Mackerel</option>
+                                                                                          <option  value="99">Kingfish (Nguru)</option>
+                                                                                          <option  value="100">Sharks</option>
+                                                                                          <option  value="101">Sardines</option>
+                                                                                          <option  value="102">Swordfishes</option>
+                                                                                          <option  value="103">Lobster(Kamba Mawe)</option>
+                                                                                          <option  value="104">Prawns</option>
+                                                                                          <option  value="107">Mud Crabs</option>
+                                                                                          <option  value="108">Golden (Deep-Sea) Crabs Kaa</option>
+                                                                                          <option  value="109">Fresh Water Shrimp</option>
+                                                                                          <option  value="110">Octopus (Pweza)</option>
+                                                                                          <option  value="111">Cuttlefish</option>
+                                                                                          <option  value="112">Squid(Ngisi)</option>
+                                                                                          <option  value="113">Oysters</option>
+                                                                                          <option  value="114">Fish Oil</option>
+                                                                                          <option  value="115">Fish Maws</option>
+                                                                                          <option  value="117">Nile Perch Skins</option>
+                                                                                          <option  value="121">Black nightshade (Managu/ Osuga)</option>
+                                                                                          <option  value="122">Spider flower (Saga)</option>
+                                                                                          <option  value="123">Amaranthus (Terere)</option>
+                                                                                          <option  value="124">Jute Plant (Murenda)</option>
+                                                                                          <option  value="125">Passion Fruits</option>
+                                                                                          <option  value="127">Oranges</option>
+                                                                                          <option  value="128">Tree tomato</option>
+                                                                                          <option  value="129">Pepino melon</option>
+                                                                                          <option  value="130">Thorn melon</option>
+                                                                                          <option  value="131">Yam</option>
+                                                                                          <option  value="133">Cow Milk(At collection point)</option>
+                                                                                          <option  value="134">Camel Milk(At collection point)</option>
+                                                                                          <option  value="138">Camel milk(Processed)</option>
+                                                                                          <option  value="139">Goat milk (Processed)</option>
+                                                                                          <option  value="140">Cattle</option>
+                                                                                          <option  value="141">Pork</option>
+                                                                                          <option  value="142">Avocado</option>
+                                                                                          <option  value="143">Arrow Root</option>
+                                                                                          <option  value="145">Lemons</option>
+                                                                                          <option  value="147">Mangoes</option>
+                                                                                          <option  value="148">Limes</option>
+                                                                                          <option  value="149">Green Maize</option>
+                                                                                          <option  value="150">Water Melon</option>
+                                                                                          <option  value="151">Pineapples</option>
+                                                                                          <option  value="152">Pawpaw</option>
+                                                                                          <option  value="153">Cow Milk(Processd)</option>
+                                                                                          <option  value="154">Kales/Sukuma Wiki</option>
+                                                                                          <option  value="158">Dry Onions</option>
+                                                                                          <option  value="159">Spring Onions</option>
+                                                                                          <option  value="160">Fresh Peas</option>
+                                                                                          <option  value="161">Spinach</option>
+                                                                                          <option  value="162">Cassava Fresh</option>
+                                                                                          <option  value="163">White Irish Potatoes</option>
+                                                                                          <option  value="164">Cassava Chips (dry)</option>
+                                                                                          <option  value="165">Chillies</option>
+                                                                                          <option  value="166">Lettuce</option>
+                                                                                          <option  value="167">Sheep</option>
+                                                                                          <option  value="168">Goat</option>
+                                                                                          <option  value="169">Donkey</option>
+                                                                                          <option  value="170">Pumpkin</option>
+                                                                                          <option  value="171">Butternuts</option>
+                                                                                          <option  value="172">Capsicums</option>
+                                                                                          <option  value="173">Cucumber</option>
+                                                                                          <option  value="174">Egg plant (Brinjals)</option>
+                                                                                          <option  value="175">Cauliflower</option>
+                                                                                          <option  value="177">French beans</option>
+                                                                                          <option  value="178">Ginger</option>
+                                                                                          <option  value="180">Garlic</option>
+                                                                                          <option  value="182">Njugu Mawe</option>
+                                                                                          <option  value="183">Beans Rosecoco (Nyayo)</option>
+                                                                                          <option  value="184">Nile Perch</option>
+                                                                                          <option  value="186">Camel</option>
+                                                                                          <option  value="187">Rabbit</option>
+                                                                                          <option  value="188">Pigeon peas</option>
+                                                                                          <option  value="189">Cowpeas</option>
+                                                                                          <option  value="190">Scavengers (Changu/Tangu)</option>
+                                                                                          <option  value="191">Parrotfishes(Pono)</option>
+                                                                                          <option  value="192">Groupers</option>
+                                                                                          <option  value="193">Grunt(Taamamba/Kora)</option>
+                                                                                          <option  value="194">Mullets(Fumi)</option>
+                                                                                          <option  value="195">Surgeonfishes</option>
+                                                                                          <option  value="196">Threadfin breams</option>
+                                                                                          <option  value="197">Goatfishes</option>
+                                                                                          <option  value="198">Rayfish</option>
+                                                                                          <option  value="199">Needlefishes</option>
+                                                                                          <option  value="200">Jacks/Trevallies(Kolekole)</option>
+                                                                                          <option  value="201">Halfbeaks</option>
+                                                                                          <option  value="202">Anchovies</option>
+                                                                                          <option  value="203">Sailfishes</option>
+                                                                                          <option  value="204">Wolf Herrings</option>
+                                                                                          <option  value="205">Marlins</option>
+                                                                                          <option  value="206">Jobfish</option>
+                                                                                          <option  value="207">Mixed Pelagics</option>
+                                                                                          <option  value="208">Camel meat</option>
+                                                                                          <option  value="209">Meat Chevon</option>
+                                                                                          <option  value="210">Rabbit Meat </option>
+                                                                                          <option  value="211">Pigs</option>
+                                                                                          <option  value="212">Honey</option>
+                                                                                          <option  value="213">Cattle Hide</option>
+                                                                                          <option  value="214">Camel Hide</option>
+                                                                                          <option  value="215">Goat Skin</option>
+                                                                                          <option  value="216">Sheep Skin</option>
+                                                                                          <option  value="217">Fertilizer</option>
+                                                                                          <option  value="218">Tea</option>
+                                                                                          <option  value="219">Coffee</option>
+                                                                                          <option  value="220">Wheat Bran</option>
+                                                                                          <option  value="221">Maize Bran</option>
+                                                                                          <option  value="222">Sunflower Cake</option>
+                                                                                          <option  value="223">Cotton Seed</option>
+                                                                                          <option  value="224">Cotton</option>
+                                                                                          <option  value="226">Banana (Ripening)</option>
+                                                                                          <option  value="227">Chicken</option>
+                                                                                          <option  value="228">Macadamia Seed</option>
+                                                                                          <option  value="229">Cashewnuts (Korosho)</option>
+                                                                                          <option  value="230">Cowpea leaves (Kunde)</option>
+                                                                                          <option  value="231">Nderema- Vine Spinach</option>
+                                                                                          <option  value="233">Pumpkin Leaves</option>
+                                                                                          <option  value="234">Ethiopian Kales -Kanzira</option>
+                                                                                          <option  value="235">Indigenous Crotolaria (Mito/Miro)</option>
+                                                                                          <option  value="237">Soybean oil</option>
+                                                                                          <option  value="238">Coconut Oil</option>
+                                                                                          <option  value="239">Sunflower Seeds</option>
+                                                                                          <option  value="240">Sunflower Oil</option>
+                                                                                          <option  value="241">Walnut Seed</option>
+                                                                                          <option  value="242">Coriander (Dhania)</option>
+                                                                                          <option  value="243">Grapes</option>
+                                                                                          <option  value="244">Apples</option>
+                                                                                          <option  value="245">Dry Peas</option>
+                                                                                          <option  value="246">Mixed Beans</option>
+                                                                                          <option  value="247">Rockcode(Tewa)</option>
+                                                                                          <option  value="248">Queenfish (Pandu)</option>
+                                                                                          <option  value="249">Maize Flour</option>
+                                                                                          <option  value="251">Duck</option>
+                                                                                          <option  value="255">Banana (Cooking)</option>
+                                                                                          <option  value="256">Banana (Plantain)</option>
+                                                                                          <option  value="257">Courgette</option>
+                                                                                          <option  value="258">Broccoli</option>
+                                                                                          <option  value="259">Lentils</option>
+                                                                                          <option  value="261">Fish Scales</option>
+                                                                                          <option  value="262">Tangerine (Sandara)</option>
+                                                                                          <option  value="265">Wheat Flour</option>
+                                                                                          <option  value="267">Paddy Rice</option>
+                                                                                          <option  value="269">Beans (Yellow)</option>
+                                                                                          <option  value="270">Coconut</option>
+                                                                                          <option  value="272">Okra (Lady's fingers or Gumbo)</option>
+                                                                                          <option  value="273">Dragon Fruit</option>
+                                                                                       </select>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                       <div class="form-group">
+                                          <label>Entries:</label>
+                                          <select id="selPerPage" name="per_page" class="page-size form-control" onchange="this.form.submit();">
+                                             <option value="10">10</option>
+                                          <option value="50">50</option>
+                                          <option value="100">100</option>
+                                          <option value="500">500</option>
+                                          <option value="1500">1500</option>
+                                          <option value="3000">3000</option>
+                                                                                       </select>
+                                       </div>
+                                    </div>
+                                 </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row d-flex align-items-center justify-content-between mt-1 mb-3">
+                        <div class="pull-left col-lg-6">
+                                <ul class="pagination"><li class="active"><a href="#">1</a></li><li><a href="https://kamis.kilimo.go.ke/site/market/10?" data-ci-pagination-page="2">2</a></li><li><a href="https://kamis.kilimo.go.ke/site/market/20?" data-ci-pagination-page="3">3</a></li><li><a href="https://kamis.kilimo.go.ke/site/market/30?" data-ci-pagination-page="4">4</a></li><li><a href="https://kamis.kilimo.go.ke/site/market/40?" data-ci-pagination-page="5">5</a></li><li><a href="https://kamis.kilimo.go.ke/site/market/10?" data-ci-pagination-page="2" rel="next">&gt;</a><li><li><a href="https://kamis.kilimo.go.ke/site/market/31770?" data-ci-pagination-page="3178">&raquo;</a></li></ul>                             </div>
+                            <div class="pull-right col-lg-2">
+                                <a href="https://kamis.kilimo.go.ke/site/market?&export=excel" class="btn btn-default mr-2 mt-2 mb-2 btn-export"><i class="fas fa-file-excel"></i> Export to Excel</a>                            </div>
+                   </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                         <ul class="nav nav-tabs" id="myTab" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="nav-data-tab" data-toggle="tab" href="#nav-data" role="tab" aria-controls="nav-data" aria-selected="true">Data</a>
+                          </li>
+                          <!--<li class="nav-item">-->
+                          <!--  <a class="nav-link" id="nav-visualization-tab" data-toggle="tab" href="#nav-visualization" role="tab" aria-controls="nav-visualization" aria-selected="false">Visualization</a>-->
+                          <!--</li>-->
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade  show active" id="nav-data" role="tabpanel" aria-labelledby="nav-data-tab">
+                              <div class="table-responsive"> 
+                                 <table class="table table-bordered table-condensed">
+<thead>
+<tr>
+<th>Commodity</th><th>Classification</th><th>Grade</th><th>Sex</th><th>Market</th><th>Wholesale</th><th>Retail</th><th>Supply Volume</th><th>County</th><th>Date</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Dry Maize</td><td>White Maize</td><td>-</td><td>-</td><td>Mulot</td><td>50.00/Kg</td><td>65.00/Kg</td><td>5400.00</td><td>Bomet</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>White Maize</td><td>-</td><td>-</td><td>Kisasi</td><td>40.00/Kg</td><td>55.00/Kg</td><td></td><td>Kitui</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>White Maize</td><td>-</td><td>-</td><td>Makutano Embu</td><td>52.00/Kg</td><td>60.00/Kg</td><td></td><td>Embu</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>Mixed-Traditional </td><td>-</td><td>-</td><td>Kagio</td><td>46.67/Kg</td><td>64.00/Kg</td><td></td><td>Kirinyaga</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>Mixed-Traditional </td><td>-</td><td>-</td><td>Kagio</td><td>46.67/Kg</td><td>64.00/Kg</td><td></td><td>Kirinyaga</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>Mixed-Traditional </td><td>-</td><td>-</td><td>Kagio</td><td>46.67/Kg</td><td>64.00/Kg</td><td></td><td>Kirinyaga</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>Mixed-Traditional </td><td>-</td><td>-</td><td>Kagio</td><td>46.67/Kg</td><td>64.00/Kg</td><td></td><td>Kirinyaga</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>White Maize</td><td>-</td><td>-</td><td>Kangeta</td><td>50.00/Kg</td><td>60.00/Kg</td><td>1300.00</td><td>Meru</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>Yellow Maize</td><td>-</td><td>-</td><td>Gikomba</td><td>77.78/Kg</td><td>100.00/Kg</td><td></td><td>Nairobi</td><td>2026-02-25</td></tr>
+<tr>
+<td>Dry Maize</td><td>White Maize</td><td>-</td><td>-</td><td>Gikomba</td><td>53.33/Kg</td><td>70.00/Kg</td><td></td><td>Nairobi</td><td>2026-02-25</td></tr>
+</tbody>
+</table>                              </div>
+                           </div>
+                           <!--<div class="tab-pane fade" id="nav-visualization" role="tabpanel" aria-labelledby="nav-visualization-tab">-->
+                           <!--   <div id="average-price-chart"></div>-->
+                           <!--</div>-->
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<script type="text/javascript">
+   $(document).ready(function() {
+       $('#selProduct').select2({placeholder : "Select Product"});
+       if(null){
+           $('#selProduct').select2('destroy');
+           $('#selProduct').val(null).select2();
+       }
+       $('#selPerPage').select2({placeholder : "Select Number"});
+       if((null)){
+           $('#selPerPage').select2('destroy');
+           $('#selPerPage').val(null).select2();
+       }
+       avg_price_chart = new Highcharts.Chart({"chart":{"renderTo":"average-price-chart","type":"line","zoomType":"x","marginLeft":60,"marginTop":30,"marginBottom":70,"style":{"fontSize":"11px"}},"title":{"text":"Average Prices for Dry Maize","style":{"fontSize":"14px"}},"legend":{"itemStyle":{"fontSize":"10px"}},"credits":{"enabled":false},"xAxis":{"labels":{"style":{"fontSize":"11px"}},"type":"datetime"},"yAxis":{"labels":{"style":{"fontSize":"11px"}},"title":{"text":"KES\/KG"}},"tooltip":{"formatter":function() {
+                return '<b>'+ this.series.name + ' | Dry Maize'+'</b><br/>'+
+                Highcharts.dateFormat('%b %e, %Y', this.x) +': '+ this.y +' KG';
+            }},"series":[{"name":"Wholesale Prices","color":"#89A54E","type":"line","data":[[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0]]},{"name":"Retail Prices","color":"#D62B1F","type":"line","data":[[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0],[Date.UTC(1970, 01-1, 01),0]]}]});   });
+</script>
+        </div>
+    </section>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+    <script src="https://kamis.kilimo.go.ke/resources/frontpage-vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="https://kamis.kilimo.go.ke/resources/frontpage-vendor/aos/aos.js"></script>
+    <script src="https://kamis.kilimo.go.ke/resources/frontpage-vendor/php-email-form/validate.js"></script>
+    <script src="https://kamis.kilimo.go.ke/resources/frontpage-vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://kamis.kilimo.go.ke/resources/frontpage-vendor/purecounter/purecounter.js"></script>
+    <script src="https://kamis.kilimo.go.ke/resources/frontpage-vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="https://kamis.kilimo.go.ke/resources/frontpage-vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script src="https://kamis.kilimo.go.ke/resources/js/frontpage/main.js"></script>
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/fake_data.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/agricultural-inputs/table.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/agricultural-inputs/graph.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/agricultural-inputs/whats-new.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/crops/table.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/crops/graph.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/crops/whats-new.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/fisheries/table.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/fisheries/graph.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/fisheries/whats-new.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/livestock/table.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/livestock/graph.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/livestock/whats-new.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/agricultural/table.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/agricultural/graph.js"></script>-->
+    <!--<script src="https://kamis.kilimo.go.ke/resources/js/frontpage/agricultural/whats-new.js"></script>-->
+</body>
+</html>

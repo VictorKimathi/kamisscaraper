@@ -1,0 +1,122 @@
+[
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "White Maize",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Mulot",
+    "Wholesale": "50.00/Kg",
+    "Retail": "65.00/Kg",
+    "Supply Volume": "5400.00",
+    "County": "Bomet",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "White Maize",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Kisasi",
+    "Wholesale": "40.00/Kg",
+    "Retail": "55.00/Kg",
+    "Supply Volume": null,
+    "County": "Kitui",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "White Maize",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Makutano Embu",
+    "Wholesale": "52.00/Kg",
+    "Retail": "60.00/Kg",
+    "Supply Volume": null,
+    "County": "Embu",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "Mixed-Traditional",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Kagio",
+    "Wholesale": "46.67/Kg",
+    "Retail": "64.00/Kg",
+    "Supply Volume": null,
+    "County": "Kirinyaga",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "Mixed-Traditional",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Kagio",
+    "Wholesale": "46.67/Kg",
+    "Retail": "64.00/Kg",
+    "Supply Volume": null,
+    "County": "Kirinyaga",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "Mixed-Traditional",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Kagio",
+    "Wholesale": "46.67/Kg",
+    "Retail": "64.00/Kg",
+    "Supply Volume": null,
+    "County": "Kirinyaga",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "Mixed-Traditional",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Kagio",
+    "Wholesale": "46.67/Kg",
+    "Retail": "64.00/Kg",
+    "Supply Volume": null,
+    "County": "Kirinyaga",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "White Maize",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Kangeta",
+    "Wholesale": "50.00/Kg",
+    "Retail": "60.00/Kg",
+    "Supply Volume": "1300.00",
+    "County": "Meru",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "Yellow Maize",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Gikomba",
+    "Wholesale": "77.78/Kg",
+    "Retail": "100.00/Kg",
+    "Supply Volume": null,
+    "County": "Nairobi",
+    "Date": "2026-02-25"
+  },
+  {
+    "Commodity": "Dry Maize",
+    "Classification": "White Maize",
+    "Grade": null,
+    "Sex": null,
+    "Market": "Gikomba",
+    "Wholesale": "53.33/Kg",
+    "Retail": "70.00/Kg",
+    "Supply Volume": null,
+    "County": "Nairobi",
+    "Date": "2026-02-25"
+  }
+]
